@@ -78,7 +78,7 @@ function va(a) {
 }
 
 function ca() {
-	q = new WebSocket("ws://159.65.78.102:2828");
+	q = new WebSocket("ws://cursors-io-server.vicckz194.repl.co");
 	q.binaryType = "arraybuffer";
 	q.onopen = wa;
 	q.onmessage = xa;
